@@ -11,8 +11,8 @@ branding:
     email:
       description: The commiter's email address
       required: true
-      default: ${{ github.actor }}@localhost
+      default: "committer@localhost"
     name:
       description: The commiter's name
       required: true
-      default: ${{ github.actor }}@localhost
+      default: "committer@localhost"
